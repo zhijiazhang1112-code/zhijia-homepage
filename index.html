@@ -242,11 +242,11 @@
 
     .hero-title {
       margin: 0;
-      max-width: 900px;
+      max-width: 1500px;
       font-size: clamp(42px, 6vw, 72px);
       font-weight: 520;
-      line-height: 0.98;
-      letter-spacing: -0.06em;
+      line-height: 1.28;
+      letter-spacing: -0.045em;
     }
 
     .hero-title .accent-word {
@@ -782,7 +782,7 @@
         <div>
           <button class="brand" data-target="0" aria-label="Go to Home">
             <h1>Zhijia Zhang</h1>
-            <p>PhD Researcher in Condensed Matter Physics<br />The University of Manchester</p>
+            <p>PhD student in Condensed Matter Physics<br />The University of Manchester</p>
           </button>
         </div>
 
@@ -804,12 +804,12 @@
         <div class="home-grid">
           <div>
             <p class="home-title-kicker">Nanoscale interfaces · Ion transport · Electrochemistry</p>
-            <h2 class="hero-title">Ion transport at the <span class="accent-word">edge of confinement</span>.</h2>
+            <h2 class="hero-title">Chemistry&Physics at the <span class="accent-word">edge of Nanoconfinement</span></h2>
             <p class="body-text">
-              I am Zhijia Zhang, a PhD researcher in condensed matter physics at The University of Manchester, working on nanofluidics, two-dimensional materials, and interfacial electrochemistry.
+              I am Zhijia Zhang, a PhD student in condensed matter physics at The University of Manchester, working on nanofluidics, two-dimensional materials, and interfacial electrochemistry.
             </p>
             <p class="body-text">
-              My research combines clean van der Waals device fabrication, ionic transport measurements, pressure-sensitive nanofluidics, and electrochemical processes to understand how nanoscale interfaces reshape transport.
+              My research combines van der Waals device fabrication, ionic transport measurements, and electrochemical processes to understand how Nanoconfinement reshape ion transport and chemical reactions.
             </p>
 
             <section class="news-panel" aria-label="Recent news">
@@ -817,70 +817,16 @@
                 <span>Recent News</span>
               </div>
               <ul class="news-list">
-                <li><time>2026</time><span>Continuing PhD research on nanofluidics, two-dimensional materials, and interfacial ion transport at The University of Manchester.</span></li>
-                <li><time>2025</time><span>Best Poster Nomination, MRS Fall Meeting & Exhibit.</span></li>
-                <li><time>2025</time><span>Selected work on clean van der Waals nanochannels and mechanosensitive nanofluidic transport under review.</span></li>
+                <li><time>2026.06</time><span>Our new work is accepted by Science Advances！ Exploring a route to mechanosensitivity in nanofluidic systems without structural deformation. Many thanks to all collaborators for making this happen.</span></li>
+                <li><time>2025.12</time><span>I got the Best Poster Nomination in MRS Fall Meeting & Exhibit. Thanks Rick and Morty!</span></li>
+                <li><time>2025.10</time><span>Our new preprint introduces a fast and scalable method for fabricating ultraclean van der Waals nanochannels within hours using the Mask & Stack approach. Huge thanks to the whole team, and exciting to see this technique opening new possibilities for 2D nanofluidics society.</span></li>
               </ul>
             </section>
           </div>
 
           <figure class="image-panel">
-            <div class="concept-figure" aria-label="Concept illustration of ion transport and fluid flow">
-              <svg viewBox="0 0 800 600" xmlns="http://www.w3.org/2000/svg" role="img">
-                <defs>
-                  <linearGradient id="bgGrad" x1="0" x2="1" y1="0" y2="1">
-                    <stop offset="0%" stop-color="#f5efff"/>
-                    <stop offset="100%" stop-color="#fff9e8"/>
-                  </linearGradient>
-                  <linearGradient id="channelGrad" x1="0" x2="1">
-                    <stop offset="0%" stop-color="#7a36b8"/>
-                    <stop offset="100%" stop-color="#5a2388"/>
-                  </linearGradient>
-                  <linearGradient id="flowGrad" x1="0" x2="1">
-                    <stop offset="0%" stop-color="#f2c94c"/>
-                    <stop offset="100%" stop-color="#6f2da8"/>
-                  </linearGradient>
-                  <filter id="blur"><feGaussianBlur stdDeviation="8" /></filter>
-                </defs>
-                <rect width="800" height="600" fill="url(#bgGrad)"/>
-                <circle cx="645" cy="128" r="112" fill="#f2c94c" opacity="0.14" filter="url(#blur)"/>
-                <circle cx="182" cy="460" r="120" fill="#6f2da8" opacity="0.10" filter="url(#blur)"/>
-                <rect x="135" y="212" width="530" height="32" rx="16" fill="url(#channelGrad)" opacity="0.95"/>
-                <rect x="135" y="356" width="530" height="32" rx="16" fill="url(#channelGrad)" opacity="0.95"/>
-                <text x="147" y="194" font-size="16" fill="#6f2da8" font-family="Inter, Arial, sans-serif">confined nanochannel</text>
-                <path d="M110 300 C 180 250, 270 350, 340 300 S 500 250, 570 300 S 660 350, 720 300" stroke="url(#flowGrad)" stroke-width="8" fill="none" stroke-linecap="round"/>
-                <path d="M110 282 C 185 232, 272 332, 342 282 S 500 232, 570 282 S 654 332, 716 282" stroke="#6f2da8" stroke-opacity="0.20" stroke-width="3" fill="none" stroke-linecap="round"/>
-                <path d="M110 318 C 185 268, 272 368, 342 318 S 500 268, 570 318 S 654 368, 716 318" stroke="#f2c94c" stroke-opacity="0.24" stroke-width="3" fill="none" stroke-linecap="round"/>
-                <polygon points="712,300 682,284 682,316" fill="#6f2da8"/>
-                <g>
-                  <circle cx="184" cy="300" r="18" fill="#f2c94c" opacity="0.95"/>
-                  <text x="177" y="306" font-size="18" font-weight="700" fill="#5a2388" font-family="Inter, Arial, sans-serif">+</text>
-                </g>
-                <g>
-                  <circle cx="278" cy="275" r="15" fill="#6f2da8" opacity="0.92"/>
-                  <text x="271" y="281" font-size="18" font-weight="700" fill="#ffffff" font-family="Inter, Arial, sans-serif">−</text>
-                </g>
-                <g>
-                  <circle cx="392" cy="323" r="17" fill="#f2c94c" opacity="0.95"/>
-                  <text x="385" y="329" font-size="18" font-weight="700" fill="#5a2388" font-family="Inter, Arial, sans-serif">+</text>
-                </g>
-                <g>
-                  <circle cx="510" cy="289" r="16" fill="#6f2da8" opacity="0.92"/>
-                  <text x="503" y="295" font-size="18" font-weight="700" fill="#ffffff" font-family="Inter, Arial, sans-serif">−</text>
-                </g>
-                <g>
-                  <circle cx="605" cy="312" r="18" fill="#f2c94c" opacity="0.95"/>
-                  <text x="598" y="318" font-size="18" font-weight="700" fill="#5a2388" font-family="Inter, Arial, sans-serif">+</text>
-                </g>
-                <g stroke="#6f2da8" stroke-opacity="0.18" stroke-width="2" fill="none">
-                  <path d="M110 120c86 38 125 94 192 94 74 0 111-70 185-94"/>
-                  <path d="M312 110c56 26 79 68 129 68 53 0 81-37 131-68"/>
-                  <path d="M476 470c64-34 92-86 151-86 67 0 97 52 160 86"/>
-                </g>
-                <text x="108" y="106" font-size="15" fill="#8870aa" font-family="Inter, Arial, sans-serif">ion trajectories / fluid streamlines</text>
-              </svg>
-            </div>
-            <figcaption>This placeholder concept graphic uses a subtle ion-flow illustration in Manchester-inspired purple and gold. You can later replace it with your own AFM/device image if you want.</figcaption>
+            <img src="./images/nanochannel.jpg" alt="Research image of nanofluidic device or ion transport" />
+            <figcaption></figcaption>
           </figure>
         </div>
       </div>
@@ -916,7 +862,7 @@
             <article class="research-card">
               <img src="./images/battery.jpg" alt="Energy Harvesting and Storage" />
               <h3>Energy Harvesting and Storage</h3>
-              <p>Osmotic energy conversion and storage, Secondary battery systems</p>
+              <p>Osmotic energy conversion and Secondary battery systems</p>
             </article>
           </div>
         </div>
